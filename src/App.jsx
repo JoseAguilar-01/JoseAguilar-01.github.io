@@ -5,7 +5,6 @@ import ListadoProyectos from '../components/ListadoProyectos';
 import ListadoHabilidades from '../components/ListadoHabilidades';
 import Navbar from '../components/Navbar';
 import Particle from '../components/Particle';
-import React from 'react';
 
 function App() {
 	return (
