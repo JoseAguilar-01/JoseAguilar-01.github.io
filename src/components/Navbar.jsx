@@ -1,4 +1,3 @@
-import React from 'react'
 import { Fragment } from 'react';
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
@@ -9,21 +8,17 @@ const navigation = [
 	{ name: 'Contacto', href: '#contacto', current: false },
 ];
 
-function classNames(...classes) {
-	return classes.filter(Boolean).join(' ');
-}
-
 const Navbar = () => {
 	return (
 		<Disclosure as="nav" className="bg-indigo-700 fixed w-full z-20">
 			{({ open }) => (
-				<div>
+				<Fragment>
 					<div className="max-w-7xl mx-auto px-2 py-2 sm:px-6 lg:px-8">
 						<div className="relative flex items-center justify-between h-16">
 							<div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
 								{/* Mobile menu button*/}
 								<Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white transition-all">
-									<span className="sr-only">Open main menu</span>
+									{/* Open main menu */}
 									{open ? (
 										<XIcon className="block h-6 w-6" aria-hidden="true" />
 									) : (
@@ -43,11 +38,8 @@ const Navbar = () => {
 											<a
 												key={item.name}
 												href={item.href}
-												className={classNames(
-													'text-white bg-indigo-500 hover:text-indigo-600 hover:bg-white transition-colors',
-													'px-3 py-2 rounded-md text-lg font-semibold'
-												)}
-												aria-current={item.current ? 'page' : undefined}
+												className="text-white bg-indigo-500 hover:text-indigo-600 hover:bg-white transition-colors
+													px-3 py-2 rounded-md text-lg font-semibold"
 											>
 												{item.name}
 											</a>
@@ -80,18 +72,14 @@ const Navbar = () => {
 									key={item.name}
 									as="a"
 									href={item.href}
-									className={classNames(
-										'text-white bg-indigo-500 hover:text-indigo-600 hover:bg-white transition-colors text-center',
-										'block px-3 py-2 rounded-md text-base font-bold transition-colors'
-									)}
-									aria-current={item.current ? 'page' : undefined}
+									className="text-white bg-indigo-500 hover:text-indigo-600 hover:bg-white transition-colors text-center block px-3 py-2 rounded-md text-base font-bold"
 								>
 									{item.name}
 								</Disclosure.Button>
 							))}
 						</div>
 					</Disclosure.Panel>
-				</div>
+				</Fragment>
 			)}
 		</Disclosure>
 	);
