@@ -1,10 +1,10 @@
-import Contacto from '../components/Contacto';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import ListadoProyectos from '../components/ListadoProyectos';
-import ListadoHabilidades from '../components/ListadoHabilidades';
-import Navbar from '../components/Navbar';
-import Particle from '../components/Particle';
+import Contacto from './components/Contacto';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import ListadoProyectos from './components/ListadoProyectos';
+import ListadoHabilidades from './components/ListadoHabilidades';
+import Navbar from './components/Navbar';
+import Particle from './components/Particle';
 
 function App() {
 	return (
