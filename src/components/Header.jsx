@@ -8,7 +8,7 @@ const Header = () => {
 			<p className="text-gray-300 text-center text-xl md:text-2xl w-4/5 md:w-3/5 mx-auto">
 				Soy un desarrollador Frontend en constante evolución, desarrollo y
 				aprendizaje. Siempre dispuesto a prestarle ayuda a todo aquel que
-				necesite, me gusta trabajar con personas que apoortan valor y
+				necesite, me gusta trabajar con personas que aportan valor y
 				siempre dar el 200% de mi esfuerzo en cada proyecto que realizo o
 				en el que colaboro.
 			</p>
