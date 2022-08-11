@@ -18,6 +18,7 @@ const ListadoHabilidades = () => {
 					<div className="bg-black flex flex-wrap gap-5 justify-center items-baseline md:px-16 lg:px-20">
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/empatia.png"
 								width={60}
 								height={60}
@@ -27,6 +28,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/inteligencia-emocional.png"
 								width={60}
 								height={60}
@@ -36,6 +38,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/comunicacion.png"
 								width={60}
 								height={60}
@@ -45,6 +48,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4 text-center">
 							<img
+								loading="lazy"
 								src="/assets/img/aprendizaje.png"
 								width={60}
 								height={60}
@@ -56,6 +60,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/cooperacion.png"
 								width={60}
 								height={60}
@@ -65,6 +70,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/opinion.png"
 								width={60}
 								height={60}
@@ -74,6 +80,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4 text-center">
 							<img
+								loading="lazy"
 								src="/assets/img/fortaleza.png"
 								width={60}
 								height={60}
@@ -85,6 +92,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/motivacion.png"
 								width={60}
 								height={60}
@@ -94,6 +102,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/pasion.png"
 								width={60}
 								height={60}
@@ -111,6 +120,7 @@ const ListadoHabilidades = () => {
 					<div className="bg-black flex flex-wrap gap-5 justify-center items-baseline md:px-16 lg:px-20">
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/react.svg"
 								width={60}
 								height={60}
@@ -120,6 +130,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/vite.svg"
 								width={60}
 								height={60}
@@ -129,6 +140,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/js.png"
 								width={60}
 								height={60}
@@ -138,6 +150,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/nextjs-2.svg"
 								width={100}
 								height={100}
@@ -147,6 +160,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/strapi-icon.svg"
 								width={60}
 								height={60}
@@ -156,6 +170,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/prisma-icon.svg"
 								width={50}
 								height={50}
@@ -165,6 +180,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/html5.png"
 								width={70}
 								height={70}
@@ -174,6 +190,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/css3.png"
 								width={70}
 								height={70}
@@ -183,6 +200,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/tailwind-css.svg"
 								width={70}
 								height={70}
@@ -192,6 +210,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/bootstrap-icon.svg"
 								width={65}
 								height={65}
@@ -201,6 +220,7 @@ const ListadoHabilidades = () => {
 						</div>
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
+								loading="lazy"
 								src="/assets/img/git.svg"
 								width={60}
 								height={60}

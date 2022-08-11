@@ -11,6 +11,7 @@ const ListadoProyectos = () => {
 			<div className="grid grid-cols-1 justify-center">
 				<div className="flex flex-col lg:flex-row gap-7 items-center border-solid border-b-2 border-gray-300 py-12 px-5 shadow-lg">
 					<img
+						loading="lazy"
 						src="/assets/img/quioscoapp.png"
 						width={550}
 						height={650}
@@ -27,36 +28,42 @@ const ListadoProyectos = () => {
 							Tecnologías empleadas:
 							<div className="flex flex-wrap justify-center items-center gap-5">
 								<img
+									loading="lazy"
 									src="/assets/img/nextjs.png"
 									width={30}
 									height={30}
 									alt="Icono NextJS"
 								/>
 								<img
+									loading="lazy"
 									src="/assets/img/js.png"
 									width={30}
 									height={30}
 									alt="Icono JavaScript"
 								/>
 								<img
+									loading="lazy"
 									src="/assets/img/tailwind-css.svg"
 									width={30}
 									height={30}
 									alt="Icono Tailwind-CSS"
 								/>
 								<img
+									loading="lazy"
 									src="/assets/img/postgresql.png"
 									width={30}
 									height={30}
 									alt="Icono PostgreSQL"
 								/>
 								<img
+									loading="lazy"
 									src="/assets/img/prisma.svg"
 									width={90}
 									height={90}
 									alt="Icono Prisma"
 								/>
 								<img
+									loading="lazy"
 									src="/assets/img/railway.png"
 									width={40}
 									height={40}
@@ -86,6 +93,7 @@ const ListadoProyectos = () => {
 				</div>
 				<div className="flex flex-col lg:flex-row gap-7 items-center border-solid border-b-2 border-gray-300 py-12 px-5 mt-5 shadow-lg">
 					<img
+						loading="lazy"
 						src="/assets/img/guitarLA-Next.png"
 						width={550}
 						height={650}
@@ -101,12 +109,14 @@ const ListadoProyectos = () => {
 							Tecnologías empleadas:
 							<div className="flex flex-wrap justify-center items-center gap-5">
 								<img
+									loading="lazy"
 									src="/assets/img/nextjs.png"
 									width={30}
 									height={30}
 									alt="Icono NextJS"
 								/>
 								<img
+									loading="lazy"
 									src="/assets/img/js.png"
 									width={30}
 									height={30}
@@ -135,6 +145,7 @@ const ListadoProyectos = () => {
 				</div>
 				<div className="flex flex-col lg:flex-row gap-7 items-center border-solid border-b-2 border-gray-300 py-12 px-5 mt-5 shadow-lg">
 					<img
+						loading="lazy"
 						src="/assets/img/guitarLA-Strapi.png"
 						width={550}
 						height={650}
@@ -150,12 +161,14 @@ const ListadoProyectos = () => {
 							Tecnologías empleadas:
 							<div className="flex flex-wrap justify-center items-center gap-5">
 								<img
+									loading="lazy"
 									src="/assets/img/strapi.png"
 									width={110}
 									height={110}
 									alt="Icono Strapi"
 								/>
 								<img
+									loading="lazy"
 									src="/assets/img/cloudinary.png"
 									width={120}
 									height={120}
@@ -175,6 +188,7 @@ const ListadoProyectos = () => {
 				</div>
 				<div className="flex flex-col lg:flex-row gap-7 items-center border-solid border-b-2 border-gray-300 py-12 px-5 mt-5 shadow-lg">
 					<img
+						loading="lazy"
 						src="/assets/img/control-gastos.png"
 						width={550}
 						height={650}
@@ -190,12 +204,14 @@ const ListadoProyectos = () => {
 							Tecnologías empleadas:
 							<div className="flex flex-wrap justify-center items-center gap-5">
 								<img
+									loading="lazy"
 									src="/assets/img/react.svg"
 									width={30}
 									height={30}
 									alt="Icono React"
 								/>
 								<img
+									loading="lazy"
 									src="/assets/img/js.png"
 									width={30}
 									height={30}
@@ -228,6 +244,7 @@ const ListadoProyectos = () => {
 				</div>
 				<div className="flex flex-col lg:flex-row gap-7 mt-5 items-center border-solid border-b-2 border-gray-300 py-12 px-5 shadow-lg">
 					<img
+						loading="lazy"
 						src="/assets/img/citas-pacientes.png"
 						width={550}
 						height={650}
@@ -243,18 +260,21 @@ const ListadoProyectos = () => {
 							Tecnologías empleadas:
 							<div className="flex flex-wrap justify-center items-center gap-5">
 								<img
+									loading="lazy"
 									src="/assets/img/react.svg"
 									width={30}
 									height={30}
 									alt="Icono React"
 								/>
 								<img
+									loading="lazy"
 									src="/assets/img/js.png"
 									width={30}
 									height={30}
 									alt="Icono JavaScript"
 								/>
 								<img
+									loading="lazy"
 									src="/assets/img/tailwind-css.svg"
 									width={30}
 									height={30}

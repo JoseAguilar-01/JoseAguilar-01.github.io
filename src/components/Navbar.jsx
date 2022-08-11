@@ -54,6 +54,7 @@ const Navbar = () => {
 										className="bg-transparent p-1 rounded-full hover:bg-indigo-500 transition-colors"
 									>
 										<img
+											loading="lazy"
 											src="/assets/img/correo-icon.svg"
 											alt="Icono Correo"
 											width={45}

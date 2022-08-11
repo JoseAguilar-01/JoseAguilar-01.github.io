@@ -17,6 +17,7 @@ const Header = () => {
 				<a href="https://github.com/JoseAguilar-01" target="_blank">
 					<button className="flex items-center gap-2 uppercase text-white font-bold py-3 px-5 bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150 rounded cursor-pointer border-solid border-2 border-indigo-600 hover:border-indigo-700">
 						<img
+							loading="lazy"
 							src="/assets/img/github-icon.svg"
 							width={26}
 							height={26}

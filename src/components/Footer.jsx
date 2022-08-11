@@ -4,6 +4,7 @@ const Footer = () => {
 			<div className="flex justify-center items-center gap-10 pb-5">
 				<a href="https://github.com/JoseAguilar-01" target="_blank">
 					<img
+						loading="lazy"
 						src="/assets/img/github-icon.svg"
 						width={45}
 						height={45}
@@ -15,6 +16,7 @@ const Footer = () => {
 					target="_blank"
 				>
 					<img
+						loading="lazy"
 						src="/assets/img/linkedin-icon.svg"
 						width={40}
 						height={40}

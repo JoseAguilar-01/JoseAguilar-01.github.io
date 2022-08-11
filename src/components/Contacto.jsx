@@ -15,6 +15,7 @@ const Contacto = () => {
 			<div className="grid px-16 pb-20  md:grid-cols-3 items-center gap-10 md:gap-5">
 				<div className="flex flex-col justify-center items-center gap-2 p-5 shadow-gray-300 shadow-lg h-52">
 					<img
+						loading="lazy"
 						src="/assets/img/correo.svg"
 						width={65}
 						height={65}
@@ -32,6 +33,7 @@ const Contacto = () => {
 				</div>
 				<div className="flex flex-col justify-center items-center gap-2 p-5 shadow-gray-300 shadow-lg h-52">
 					<img
+						loading="lazy"
 						src="/assets/img/linkedin.svg"
 						width={65}
 						height={65}
@@ -50,6 +52,7 @@ const Contacto = () => {
 				</div>
 				<div className="flex flex-col justify-center items-center gap-2 p-5 shadow-gray-300 shadow-lg h-52">
 					<img
+						loading="lazy"
 						src="/assets/img/github.svg"
 						width={65}
 						height={65}
