@@ -1,7 +1,7 @@
 const Header = () => {
 	return (
-		<div className="pb-20 pt-40">
-			<h1 className="text-5xl md:text-6xl lg:text-8xl p-10 text-center font-black text-white uppercase z-10">
+		<div className="pb-32 pt-44">
+			<h1 className="text-5xl md:text-6xl lg:text-8xl p-10 text-center font-black text-white uppercase z-10 text-flicker-in-glow sha">
 				Hola, Soy <span className="italic text-indigo-600">José</span>
 			</h1>
 
@@ -13,9 +13,9 @@ const Header = () => {
 				en el que colaboro.
 			</p>
 
-			<div className="flex flex-col md:flex-row items-center justify-center gap-5 mt-9">
+			<div className="flex flex-col md:flex-row items-center justify-center gap-7 mt-9">
 				<a href="https://github.com/JoseAguilar-01" target="_blank">
-					<button className="flex items-center gap-2 uppercase text-white font-bold py-3 px-5 bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150 rounded cursor-pointer border-solid border-2 border-indigo-600 hover:border-indigo-700">
+					<button className="flex items-center gap-2 uppercase text-white font-bold py-3 px-5 bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150 rounded cursor-pointer border-solid border-2 border-indigo-600 hover:border-indigo-700 hvr-grow">
 						<img
 							loading="lazy"
 							src="/assets/img/github-icon.svg"
@@ -28,7 +28,7 @@ const Header = () => {
 				</a>
 
 				<a href="#proyectos">
-					<button className="flex items-center gap-2 uppercase text-indigo-600 hover:text-white font-bold py-3 px-5 bg-transparent hover:bg-indigo-700 transition-colors duration-150 rounded border-solid border-2 border-indigo-600 hover:border-indigo-700 cursor-pointer">
+					<button className="flex items-center gap-2 uppercase text-indigo-600 hover:text-white font-bold py-3 px-5 bg-transparent hover:bg-indigo-700 transition-colors duration-150 rounded border-solid border-2 border-indigo-600 hover:border-indigo-700 cursor-pointer hvr-grow">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							className="h-6 w-6"

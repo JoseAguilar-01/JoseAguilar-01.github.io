@@ -38,8 +38,12 @@ const FormularioContacto = () => {
 	};
 
 	return (
-		<div className="px-16 pb-16">
-			<div className="mt-12 md:mx-20 lg:mx-36 xl:mx-60 border-solid border-2 border-gray-100 shadow-gray-300 shadow-xl">
+		<div className="px-8 md:px-16 pb-16">
+			<div
+				className="mt-12 md:mx-20 lg:mx-36 xl:mx-60 border-solid border-2 border-gray-100 shadow-gray-300 shadow-xl"
+				data-aos="flip-up"
+				data-aos-duration="1000"
+			>
 				<h2
 					id="formulario"
 					className=" py-8 text-center text-4xl font-black"

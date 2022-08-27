@@ -12,8 +12,12 @@ const Contacto = () => {
 				</h2>
 			</div>
 
-			<div className="grid px-16 pb-20  md:grid-cols-3 items-center gap-10 md:gap-5">
-				<div className="flex flex-col justify-center items-center gap-2 p-5 shadow-gray-300 shadow-lg h-52">
+			<div
+				className="grid px-16 pb-20  md:grid-cols-3 items-center gap-10"
+				data-aos="fade-down"
+				data-aos-duration="900"
+			>
+				<div className="flex flex-col justify-center items-center gap-2 p-5 shadow-gray-300 shadow-lg h-52 hvr-grow">
 					<img
 						loading="lazy"
 						src="/assets/img/correo.svg"
@@ -31,7 +35,7 @@ const Contacto = () => {
 						</a>
 					</div>
 				</div>
-				<div className="flex flex-col justify-center items-center gap-2 p-5 shadow-gray-300 shadow-lg h-52">
+				<div className="flex flex-col justify-center items-center gap-2 p-5 shadow-gray-300 shadow-lg h-52 hvr-grow">
 					<img
 						loading="lazy"
 						src="/assets/img/linkedin.svg"
@@ -50,7 +54,7 @@ const Contacto = () => {
 						</a>
 					</div>
 				</div>
-				<div className="flex flex-col justify-center items-center gap-2 p-5 shadow-gray-300 shadow-lg h-52">
+				<div className="flex flex-col justify-center items-center gap-2 p-5 shadow-gray-300 shadow-lg h-52 hvr-grow">
 					<img
 						loading="lazy"
 						src="/assets/img/github.svg"

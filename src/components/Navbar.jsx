@@ -10,7 +10,12 @@ const navigation = [
 
 const Navbar = () => {
 	return (
-		<Disclosure as="nav" className="bg-indigo-700 fixed w-full z-20">
+		<Disclosure
+			as="nav"
+			className="bg-indigo-700 fixed w-full z-20"
+			data-aos="fade-down"
+			data-aos-duration="1000"
+		>
 			{({ open }) => (
 				<Fragment>
 					<div className="max-w-7xl mx-auto px-2 py-2 sm:px-6 lg:px-8">
@@ -73,7 +78,7 @@ const Navbar = () => {
 									key={item.name}
 									as="a"
 									href={item.href}
-									className="text-white bg-indigo-500 hover:text-indigo-600 hover:bg-white transition-colors text-center block px-3 py-2 rounded-md text-base font-bold"
+									className="text-white bg-indigo-500 hover:text-indigo-600 hover:bg-white  transition-all text-center block px-3 py-2 rounded-md text-base font-bold"
 								>
 									{item.name}
 								</Disclosure.Button>

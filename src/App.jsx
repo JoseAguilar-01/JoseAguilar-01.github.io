@@ -1,4 +1,6 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -8,6 +10,8 @@ import Navbar from './components/Navbar';
 import Particle from './components/Particle';
 
 function App() {
+	AOS.init();
+
 	return (
 		<div>
 			<Particle />

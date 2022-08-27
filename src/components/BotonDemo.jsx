@@ -1,7 +1,7 @@
 const BotonDemo = ({ ruta }) => {
 	return (
 		<a href={ruta} target="_blank">
-			<button className="flex items-center gap-2 text-xs uppercase text-indigo-600 hover:text-white font-bold py-2 px-3 bg-transparent hover:bg-indigo-600 transition-colors duration-150 rounded border-solid border-2 border-indigo-600 hover:border-indigo-700 cursor-pointer">
+			<button className="flex items-center gap-2 text-xs uppercase text-indigo-600 hover:text-white font-bold py-2 px-3 bg-transparent hover:bg-indigo-600 transition-colors duration-150 rounded border-solid border-2 border-indigo-600 hover:border-indigo-700 cursor-pointer hvr-grow">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					className="h-5 w-5"

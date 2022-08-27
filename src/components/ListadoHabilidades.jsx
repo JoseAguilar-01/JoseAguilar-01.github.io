@@ -11,7 +11,11 @@ const ListadoHabilidades = () => {
 					Mis <span className="text-indigo-600"> Habilidades </span>
 				</h2>
 
-				<div className="mb-12">
+				<div
+					className="mb-12"
+					data-aos="fade-down"
+					data-aos-duration="950"
+				>
 					<h3 className="text-center text-2xl font-black mb-12 text-indigo-500 uppercase">
 						Blandas
 					</h3>
@@ -113,7 +117,11 @@ const ListadoHabilidades = () => {
 					</div>
 				</div>
 
-				<div className="pb-20">
+				<div
+					className="pb-20"
+					data-aos="fade-down"
+					data-aos-duration="950"
+				>
 					<h3 className="text-center text-2xl font-black mb-12 text-indigo-500 uppercase">
 						Técnicas
 					</h3>
