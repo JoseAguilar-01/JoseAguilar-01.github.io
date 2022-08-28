@@ -8,11 +8,21 @@ import ListadoProyectos from './components/ListadoProyectos';
 import ListadoHabilidades from './components/ListadoHabilidades';
 import Navbar from './components/Navbar';
 import ParticlesBackground from './components/ParticlesBackground';
+import { useState } from 'react';
+import Spinner from './components/Spinner';
 
 function App() {
+	const [loadSpinner, setLoadSpinner] = useState(true);
+
+	setTimeout(() => {
+		setLoadSpinner(false);
+	}, 1500);
+
 	AOS.init();
 
-	return (
+	return loadSpinner === true ? (
+		<Spinner />
+	) : (
 		<div>
 			<ParticlesBackground />
 

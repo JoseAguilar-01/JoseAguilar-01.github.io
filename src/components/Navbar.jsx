@@ -16,6 +16,7 @@ const Navbar = () => {
 			className="bg-indigo-700 fixed w-screen z-20"
 			data-aos="fade-down"
 			data-aos-duration="1000"
+			data-aos-delay="3000"
 		>
 			{({ open }) => (
 				<Fragment>

@@ -12,20 +12,29 @@ body {
 }
 
 .separador-superior__1 {
-	clip-path: polygon(100% 0, 0 100%, 100% 100%);
+	clip-path: polygon(100% 0, -5% 100%, 100% 100%);
+	/* clip-path: polygon(
+		45% 55%,
+		74% 62%,
+		100% 0,
+		100% 100%,
+		0 100%,
+		0 90%,
+		21% 83%
+	); */
 	position: relative;
 	bottom: -1.3px;
 	height: 4rem;
 }
 .separador {
-	clip-path: polygon(100% 0, 0 100%, 100% 100%);
+	clip-path: polygon(100% 0, -5% 100%, 100% 100%);
 	height: 4rem;
 	position: relative;
 	top: 1px;
 }
 
 .separador-inferior__1 {
-	clip-path: polygon(100% 0, 0 100%, 100% 100%);
+	clip-path: polygon(100% 0, -5% 100%, 100% 100%);
 	position: relative;
 	bottom: -0.5px;
 	height: 4rem;
