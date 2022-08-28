@@ -38,7 +38,7 @@ const FormularioContacto = () => {
 	};
 
 	return (
-		<div className="px-8 md:px-16 pb-16" id="formulario">
+		<div className="px-8 md:px-16 pb-16 mt-40" id="formulario">
 			<div
 				className="mt-12 md:mx-20 lg:mx-36 xl:mx-60 border-solid border-2 border-gray-100 shadow-gray-300 shadow-xl"
 				data-aos="flip-up"

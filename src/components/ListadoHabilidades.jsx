@@ -118,7 +118,7 @@ const ListadoHabilidades = () => {
 				</div>
 
 				<div
-					className="pb-20 px-24"
+					className="pb-20 px-24 lg:px-40"
 					data-aos="fade-down"
 					data-aos-duration="950"
 				>
