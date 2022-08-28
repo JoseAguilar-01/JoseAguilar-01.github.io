@@ -1,6 +1,6 @@
 const Header = () => {
 	return (
-		<div className="pb-32 pt-44">
+		<header className="pb-32 pt-44" id="inicio">
 			<h1 className="text-5xl md:text-6xl lg:text-8xl p-10 text-center font-black text-white uppercase z-10 text-flicker-in-glow sha">
 				Hola, Soy <span className="italic text-indigo-600">José</span>
 			</h1>
@@ -48,7 +48,7 @@ const Header = () => {
 					</button>
 				</a>
 			</div>
-		</div>
+		</header>
 	);
 };
 

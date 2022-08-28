@@ -3,6 +3,7 @@ import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 
 const navigation = [
+	{ name: 'Inicio', href: '#inicio', current: false },
 	{ name: 'Proyectos', href: '#proyectos', current: false },
 	{ name: 'Habilidades', href: '#habilidades', current: false },
 	{ name: 'Contacto', href: '#contacto', current: false },
@@ -12,7 +13,7 @@ const Navbar = () => {
 	return (
 		<Disclosure
 			as="nav"
-			className="bg-indigo-700 fixed w-full z-20"
+			className="bg-indigo-700 fixed w-screen z-20"
 			data-aos="fade-down"
 			data-aos-duration="1000"
 		>

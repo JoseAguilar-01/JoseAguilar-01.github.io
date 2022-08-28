@@ -3,23 +3,23 @@ const ListadoHabilidades = () => {
 		<div className="espaciado">
 			<div className="bg-black w-full separador h-16"></div>
 
-			<div className="bg-black text-white px-16 py-32 ">
+			<div className="bg-black text-white py-32 ">
 				<h2
 					id="habilidades"
-					className="text-center text-4xl font-black mb-16"
+					className="text-center text-4xl font-black mb-16 px-16"
 				>
 					Mis <span className="text-indigo-600"> Habilidades </span>
 				</h2>
 
 				<div
-					className="mb-12"
+					className="mb-12 px-16 md:px-8 lg:px-32"
 					data-aos="fade-down"
 					data-aos-duration="950"
 				>
 					<h3 className="text-center text-2xl font-black mb-12 text-indigo-500 uppercase">
 						Blandas
 					</h3>
-					<div className="bg-black flex flex-wrap gap-5 justify-center items-baseline md:px-16 lg:px-20">
+					<div className="bg-black flex flex-wrap gap-5 justify-center items-baseline ">
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
 								loading="lazy"
@@ -118,14 +118,14 @@ const ListadoHabilidades = () => {
 				</div>
 
 				<div
-					className="pb-20"
+					className="pb-20 px-24"
 					data-aos="fade-down"
 					data-aos-duration="950"
 				>
 					<h3 className="text-center text-2xl font-black mb-12 text-indigo-500 uppercase">
 						Técnicas
 					</h3>
-					<div className="bg-black flex flex-wrap gap-5 justify-center items-baseline md:px-16 lg:px-20">
+					<div className="bg-black flex flex-wrap gap-5 justify-center items-baseline">
 						<div className="flex flex-col justify-center items-center gap-3 px-4">
 							<img
 								loading="lazy"

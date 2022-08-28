@@ -7,14 +7,14 @@ import Header from './components/Header';
 import ListadoProyectos from './components/ListadoProyectos';
 import ListadoHabilidades from './components/ListadoHabilidades';
 import Navbar from './components/Navbar';
-import Particle from './components/Particle';
+import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
 	AOS.init();
 
 	return (
 		<div>
-			<Particle />
+			<ParticlesBackground />
 
 			<Navbar />
 
