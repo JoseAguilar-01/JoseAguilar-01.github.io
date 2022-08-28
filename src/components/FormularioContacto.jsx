@@ -4,10 +4,12 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const FormularioContacto = () => {
-	const [nombre, setNombre] = useState('');
-	const [apellido, setApellido] = useState('');
-	const [correo, setCorreo] = useState('');
-	const [mensaje, setMensaje] = useState('');
+	const [formularioData, setFormularioData] = useState({
+		nombre: '',
+		apellido: '',
+		correo: '',
+		mensaje: '',
+	});
 
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -30,11 +32,19 @@ const FormularioContacto = () => {
 		toast.success('Envío Exitoso!');
 	};
 
+	const handleChange = (e) => {
+		const { value, name } = e.target;
+
+		setFormularioData({ ...formularioData, [name]: value });
+	};
+
 	const handleResetFormulario = () => {
-		setNombre('');
-		setApellido('');
-		setCorreo('');
-		setMensaje('');
+		setFormularioData({
+			nombre: '',
+			apellido: '',
+			correo: '',
+			mensaje: '',
+		});
 	};
 
 	return (
@@ -67,8 +77,8 @@ const FormularioContacto = () => {
 						</label>
 						<input
 							type="text"
-							value={nombre}
-							onChange={(e) => setNombre(e.target.value)}
+							value={formularioData.nombre}
+							onChange={handleChange}
 							minLength={3}
 							id="nombre"
 							name="nombre"
@@ -83,8 +93,8 @@ const FormularioContacto = () => {
 						</label>
 						<input
 							type="text"
-							value={apellido}
-							onChange={(e) => setApellido(e.target.value)}
+							value={formularioData.apellido}
+							onChange={handleChange}
 							minLength={3}
 							id="apellido"
 							name="apellido"
@@ -99,8 +109,8 @@ const FormularioContacto = () => {
 						</label>
 						<input
 							type="email"
-							value={correo}
-							onChange={(e) => setCorreo(e.target.value)}
+							value={formularioData.correo}
+							onChange={handleChange}
 							required={true}
 							id="correo"
 							name="correo"
@@ -115,8 +125,8 @@ const FormularioContacto = () => {
 						</label>
 						<textarea
 							id="mensaje"
-							value={mensaje}
-							onChange={(e) => setMensaje(e.target.value)}
+							value={formularioData.mensaje}
+							onChange={handleChange}
 							required={true}
 							name="mensaje"
 							placeholder="Ej. Hola José, cómo estás?
