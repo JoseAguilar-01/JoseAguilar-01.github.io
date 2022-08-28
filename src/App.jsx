@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Contacto from './components/Contacto';
@@ -8,7 +8,6 @@ import ListadoProyectos from './components/ListadoProyectos';
 import ListadoHabilidades from './components/ListadoHabilidades';
 import Navbar from './components/Navbar';
 import ParticlesBackground from './components/ParticlesBackground';
-import { useState } from 'react';
 import Spinner from './components/Spinner';
 
 function App() {
@@ -16,9 +15,8 @@ function App() {
 
 	setTimeout(() => {
 		setLoadSpinner(false);
+		AOS.init();
 	}, 1500);
-
-	AOS.init();
 
 	return loadSpinner === true ? (
 		<Spinner />
