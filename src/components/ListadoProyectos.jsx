@@ -3,7 +3,7 @@ import BotonGithub from './BotonGithub';
 
 const ListadoProyectos = () => {
 	return (
-		<div className="bg-white px-8 lg:px-16 pt-16 pb-40">
+		<div className="bg-white px-8 lg:px-16 pt-16 pb-40 overflow-x-hidden">
 			<h2 id="proyectos" className="text-center text-4xl font-black mb-12">
 				Algunos De Mis <span className="text-indigo-600">Proyectos</span>
 			</h2>
