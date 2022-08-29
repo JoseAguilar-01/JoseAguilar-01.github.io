@@ -13,7 +13,7 @@ const Contacto = () => {
 			</div>
 
 			<div
-				className="grid px-16 pb-20  md:grid-cols-3 items-center gap-10"
+				className="grid px-12 pb-20  md:grid-cols-3 items-center gap-10"
 				data-aos="fade-down"
 				data-aos-duration="900"
 			>
